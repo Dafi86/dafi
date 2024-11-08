@@ -7,7 +7,7 @@ canvas.height = window.innerHeight;
 function startCelebration() {
   showFireworks();
   audio.play(); // Memulai pemutaran lagu ulang tahun
-  setInterval(showFireworks, 1000);
+  setInterval(showFireworks, 80);
 }
 
 class Particle {
